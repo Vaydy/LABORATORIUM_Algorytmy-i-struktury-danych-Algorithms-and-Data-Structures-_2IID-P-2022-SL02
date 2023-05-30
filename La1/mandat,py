@@ -1,0 +1,10 @@
+mandat = int(input("Wprowadź liczbę:"))
+
+if mandat == 0 or mandat == 100:
+    print(False)
+elif mandat < 60:
+    print("No ticket")
+elif mandat <= 80:
+    print("Small ticket")
+else:
+    print("Big ticket")
